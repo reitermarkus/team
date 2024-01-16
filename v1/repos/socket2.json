@@ -1,0 +1,49 @@
+{
+  "org": "rust-lang",
+  "name": "socket2",
+  "description": "Advanced configuration options for sockets.",
+  "bots": [],
+  "teams": [
+    {
+      "name": "crate-maintainers",
+      "permission": "maintain"
+    }
+  ],
+  "members": [
+    {
+      "name": "sfackler",
+      "permission": "maintain"
+    },
+    {
+      "name": "Darksonn",
+      "permission": "maintain"
+    },
+    {
+      "name": "chansuke",
+      "permission": "triage"
+    },
+    {
+      "name": "carllerche",
+      "permission": "maintain"
+    },
+    {
+      "name": "Thomasdezeeuw",
+      "permission": "maintain"
+    }
+  ],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [
+        "Rustfmt",
+        "Test (beta)",
+        "Test (macos)",
+        "Test (nightly)",
+        "Test (stable)",
+        "Test (windows)"
+      ],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

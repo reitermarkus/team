@@ -1,0 +1,37 @@
+{
+  "name": "project-thir-unsafeck",
+  "kind": "project_group",
+  "subteam_of": "compiler",
+  "members": [
+    {
+      "name": "Niko Matsakis",
+      "github": "nikomatsakis",
+      "github_id": 155238,
+      "is_lead": true
+    }
+  ],
+  "alumni": [],
+  "github": {
+    "teams": [
+      {
+        "org": "rust-lang",
+        "name": "project-thir-unsafeck",
+        "members": [
+          155238
+        ]
+      }
+    ]
+  },
+  "website_data": {
+    "name": "THIR Unsafety Checker Project Group",
+    "description": "Working on refactoring unsafety checking to operate on THIR",
+    "page": "project-thir-unsafeck",
+    "email": null,
+    "repo": "https://github.com/rust-lang/project-thir-unsafeck",
+    "discord": null,
+    "zulip_stream": "project-thir-unsafeck",
+    "weight": 0
+  },
+  "roles": [],
+  "discord": []
+}

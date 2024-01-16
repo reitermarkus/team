@@ -1,0 +1,14 @@
+{
+  "org": "rust-lang",
+  "name": "infra-team",
+  "description": "Coordination repository for the Rust infra team",
+  "bots": [],
+  "teams": [
+    {
+      "name": "infra",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

@@ -1,0 +1,14 @@
+{
+  "org": "rust-lang",
+  "name": "cmake-rs",
+  "description": "Rust build dependency for running cmake",
+  "bots": [],
+  "teams": [
+    {
+      "name": "crate-maintainers",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

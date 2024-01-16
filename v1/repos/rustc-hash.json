@@ -1,0 +1,25 @@
+{
+  "org": "rust-lang",
+  "name": "rustc-hash",
+  "description": "Custom hash algorithm used by rustc (plus hashmap/set aliases): fast, deterministic, not secure",
+  "bots": [],
+  "teams": [
+    {
+      "name": "compiler",
+      "permission": "write"
+    },
+    {
+      "name": "compiler-contributors",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

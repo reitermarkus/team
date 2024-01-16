@@ -1,0 +1,24 @@
+{
+  "org": "rust-lang",
+  "name": "leadership-council",
+  "description": "Home of the Rust Leadership Council",
+  "bots": [
+    "rustbot",
+    "rfcbot"
+  ],
+  "teams": [
+    {
+      "name": "leadership-council",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "main",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

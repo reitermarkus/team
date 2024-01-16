@@ -1,0 +1,33 @@
+{
+  "org": "rust-lang",
+  "name": "lang-team",
+  "description": "Home of the Rust lang team",
+  "bots": [
+    "rustbot",
+    "rfcbot"
+  ],
+  "teams": [
+    {
+      "name": "release",
+      "permission": "maintain"
+    },
+    {
+      "name": "lang-ops",
+      "permission": "maintain"
+    },
+    {
+      "name": "lang",
+      "permission": "maintain"
+    },
+    {
+      "name": "lang-docs",
+      "permission": "maintain"
+    },
+    {
+      "name": "types",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

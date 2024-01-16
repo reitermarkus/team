@@ -1,0 +1,58 @@
+{
+  "name": "rustdoc-contributors",
+  "kind": "team",
+  "subteam_of": "rustdoc",
+  "members": [
+    {
+      "name": "León Orell Valerian Liehr",
+      "github": "fmease",
+      "github_id": 14913065,
+      "is_lead": false
+    }
+  ],
+  "alumni": [],
+  "github": {
+    "teams": [
+      {
+        "org": "rust-lang",
+        "name": "rustdoc-contributors",
+        "members": [
+          3050060,
+          1617736,
+          81079,
+          28781354,
+          37223377,
+          14913065,
+          220205,
+          1593513
+        ]
+      },
+      {
+        "org": "rust-lang-nursery",
+        "name": "rustdoc-contributors",
+        "members": [
+          3050060,
+          1617736,
+          81079,
+          28781354,
+          37223377,
+          14913065,
+          220205,
+          1593513
+        ]
+      }
+    ]
+  },
+  "website_data": {
+    "name": "Rustdoc team contributors",
+    "description": "Contributing to Rustdoc on a regular basis",
+    "page": "rustdoc-contributors",
+    "email": null,
+    "repo": null,
+    "discord": null,
+    "zulip_stream": "t-rustdoc",
+    "weight": 0
+  },
+  "roles": [],
+  "discord": []
+}

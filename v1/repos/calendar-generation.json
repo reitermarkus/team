@@ -1,0 +1,63 @@
+{
+  "org": "rust-lang",
+  "name": "calendar-generation",
+  "description": "Generate iCalendar documents from calendar specifications in TOML. See rust-lang/calendar.",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "libs",
+      "permission": "write"
+    },
+    {
+      "name": "release",
+      "permission": "write"
+    },
+    {
+      "name": "wg-async",
+      "permission": "write"
+    },
+    {
+      "name": "compiler-contributors",
+      "permission": "write"
+    },
+    {
+      "name": "lang",
+      "permission": "write"
+    },
+    {
+      "name": "leadership-council",
+      "permission": "write"
+    },
+    {
+      "name": "lang-ops",
+      "permission": "write"
+    },
+    {
+      "name": "docs-rs",
+      "permission": "write"
+    },
+    {
+      "name": "compiler",
+      "permission": "write"
+    },
+    {
+      "name": "crates-io",
+      "permission": "write"
+    },
+    {
+      "name": "infra",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "main",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

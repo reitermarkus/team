@@ -1,0 +1,14 @@
+{
+  "org": "rust-lang",
+  "name": "docker-rust",
+  "description": "The official Docker images for Rust",
+  "bots": [],
+  "teams": [
+    {
+      "name": "docker",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

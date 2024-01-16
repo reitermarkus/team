@@ -1,0 +1,1554 @@
+{
+  "rust-lang": [
+    {
+      "org": "rust-lang",
+      "name": ".github",
+      "description": "Special GitHub repository with fallback issue templates and community health files for other repos.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "infra",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "a-mir-formality",
+      "description": "a model of MIR and the Rust type/trait system",
+      "bots": [
+        "rustbot",
+        "rfcbot",
+        "bors"
+      ],
+      "teams": [
+        {
+          "name": "types",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang-docs",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang-ops",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "arewewebyet",
+      "description": "Are we web yet? A simple reckoning of Rust's readiness for Web-related things.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "arewewebyet",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "backtrace-rs",
+      "description": "Backtraces in Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "alexcrichton",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "blog.rust-lang.org",
+      "description": "Home of the Rust and Inside Rust blogs",
+      "bots": [],
+      "teams": [
+        {
+          "name": "inside-rust-reviewers",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "book",
+      "description": "The Rust Programming Language",
+      "bots": [],
+      "teams": [],
+      "members": [
+        {
+          "name": "carols10cents",
+          "permission": "maintain"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "bors",
+      "description": "Rust implementation of bors used for various Rust components (e.g. the compiler).",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "mods",
+          "permission": "maintain"
+        },
+        {
+          "name": "infra-bors",
+          "permission": "write"
+        },
+        {
+          "name": "infra",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "bors-kindergarten",
+      "description": "Experimental repository for testing the behavior of the new bors implementation.",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "infra-bors",
+          "permission": "write"
+        },
+        {
+          "name": "mods",
+          "permission": "maintain"
+        },
+        {
+          "name": "infra",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "calendar",
+      "description": "Calendars for Rust project teams",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "release",
+          "permission": "maintain"
+        },
+        {
+          "name": "libs",
+          "permission": "maintain"
+        },
+        {
+          "name": "wg-async",
+          "permission": "maintain"
+        },
+        {
+          "name": "compiler",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang",
+          "permission": "maintain"
+        },
+        {
+          "name": "crates-io",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang-ops",
+          "permission": "maintain"
+        },
+        {
+          "name": "cargo",
+          "permission": "maintain"
+        },
+        {
+          "name": "infra",
+          "permission": "maintain"
+        },
+        {
+          "name": "docs-rs",
+          "permission": "maintain"
+        },
+        {
+          "name": "leadership-council",
+          "permission": "maintain"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "calendar-generation",
+      "description": "Generate iCalendar documents from calendar specifications in TOML. See rust-lang/calendar.",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "libs",
+          "permission": "write"
+        },
+        {
+          "name": "release",
+          "permission": "write"
+        },
+        {
+          "name": "wg-async",
+          "permission": "write"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "write"
+        },
+        {
+          "name": "lang",
+          "permission": "write"
+        },
+        {
+          "name": "leadership-council",
+          "permission": "write"
+        },
+        {
+          "name": "lang-ops",
+          "permission": "write"
+        },
+        {
+          "name": "docs-rs",
+          "permission": "write"
+        },
+        {
+          "name": "compiler",
+          "permission": "write"
+        },
+        {
+          "name": "crates-io",
+          "permission": "write"
+        },
+        {
+          "name": "infra",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cargo",
+      "description": "The Rust package manager",
+      "bots": [
+        "bors",
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "cargo",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        },
+        {
+          "pattern": "rust-1.*",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cargo-bisect-rustc",
+      "description": "Bisects rustc, either nightlies or CI artifacts",
+      "bots": [],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "write"
+        }
+      ],
+      "members": [
+        {
+          "name": "ehuss",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 0
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cc-rs",
+      "description": "Rust library for build scripts to compile C/C++ code into a Rust library",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "NobodyXu",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cfg-if",
+      "description": "A if/elif-like macro for Rust #[cfg] statements",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "chalk",
+      "description": "An implementation and definition of the Rust trait system using a PROLOG-like logic solver",
+      "bots": [
+        "rustbot",
+        "bors"
+      ],
+      "teams": [
+        {
+          "name": "types",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cmake-rs",
+      "description": "Rust build dependency for running cmake",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "compiler-builtins",
+      "description": "Porting `compiler-rt` intrinsics to Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "compiler-team",
+      "description": "A home for compiler team planning documents, meeting minutes, and other such things.",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "types",
+          "permission": "write"
+        },
+        {
+          "name": "compiler",
+          "permission": "write"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "write"
+        },
+        {
+          "name": "wg-prioritization",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 0
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "crates-build-env",
+      "description": "Build environment for third-party Rust crates",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "docs-rs",
+          "permission": "write"
+        },
+        {
+          "name": "infra",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "docker-rust",
+      "description": "The official Docker images for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "docker",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "docs.rs",
+      "description": "crates.io documentation generator",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "docs-rs-reviewers",
+          "permission": "write"
+        },
+        {
+          "name": "docs-rs",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "edition-guide",
+      "description": "A guide to changes between various editions of Rust",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "project-edition-2024",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "ena",
+      "description": "An implementation of union-find / congruence-closure in Rust. Extracted from rustc for independent experimentation.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "write"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "ferris-says",
+      "description": "A Rust flavored implementation of `cowsay`",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "flate2-rs",
+      "description": "DEFLATE, gzip, and zlib bindings for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "alexcrichton",
+          "permission": "maintain"
+        },
+        {
+          "name": "brson",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "futures-rs",
+      "description": "Zero-cost asynchronous programming in Rust",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "wg-async",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "getopts",
+      "description": "The getopts repo maintained by the rust-lang project",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "glob",
+      "description": "Support for matching file paths against Unix shell style patterns.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "homu",
+      "description": "A bot that integrates with GitHub and your favorite continuous integration service",
+      "bots": [],
+      "teams": [
+        {
+          "name": "infra",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 0
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "impl-trait-utils",
+      "description": "Utilities for working with impl traits in Rust.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "wg-async",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "infra-team",
+      "description": "Coordination repository for the Rust infra team",
+      "bots": [],
+      "teams": [
+        {
+          "name": "infra",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "lang-team",
+      "description": "Home of the Rust lang team",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "release",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang-ops",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang-docs",
+          "permission": "maintain"
+        },
+        {
+          "name": "types",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "leadership-council",
+      "description": "Home of the Rust Leadership Council",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "leadership-council",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "libc",
+      "description": "Raw bindings to platform APIs for Rust",
+      "bots": [
+        "bors",
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "libm",
+      "description": "A port of MUSL's libm to Rust.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "libz-sys",
+      "description": "Rust crate package to link to a system libz (zlib)",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "log",
+      "description": "Logging implementation for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "Thomasdezeeuw",
+          "permission": "maintain"
+        }
+      ],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "measureme",
+      "description": "Support crate for rustc's self-profiling feature",
+      "bots": [
+        "bors"
+      ],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        },
+        {
+          "pattern": "stable",
+          "ci_checks": [
+            "bors build finished"
+          ],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "miri",
+      "description": "An interpreter for Rust's mid-level intermediate representation",
+      "bots": [
+        "rustbot",
+        "bors"
+      ],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "write"
+        },
+        {
+          "name": "miri",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "opsem-team",
+      "description": "Home of the operational semantics team, used primarily for procedural items",
+      "bots": [],
+      "teams": [
+        {
+          "name": "opsem",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "pkg-config-rs",
+      "description": "Build library for invoking pkg-config for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "sdroege",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "project-exploit-mitigations",
+      "description": "Exploit Mitigations Project Group",
+      "bots": [],
+      "teams": [
+        {
+          "name": "mods",
+          "permission": "maintain"
+        },
+        {
+          "name": "project-exploit-mitigations",
+          "permission": "maintain"
+        },
+        {
+          "name": "core",
+          "permission": "admin"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": true,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "project-stable-mir",
+      "description": "Define compiler intermediate representation usable by external tools",
+      "bots": [
+        "bors",
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "project-stable-mir",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rust-analyzer",
+      "description": "A Rust compiler front-end for IDEs",
+      "bots": [
+        "bors",
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "rust-analyzer",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rust-forge",
+      "description": "Information useful to people contributing to Rust",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "docs-rs",
+          "permission": "maintain"
+        },
+        {
+          "name": "infra",
+          "permission": "maintain"
+        },
+        {
+          "name": "project-edition-2024",
+          "permission": "maintain"
+        },
+        {
+          "name": "lang",
+          "permission": "maintain"
+        },
+        {
+          "name": "compiler",
+          "permission": "maintain"
+        },
+        {
+          "name": "crates-io",
+          "permission": "maintain"
+        },
+        {
+          "name": "libs",
+          "permission": "maintain"
+        },
+        {
+          "name": "community",
+          "permission": "maintain"
+        },
+        {
+          "name": "leadership-council",
+          "permission": "maintain"
+        },
+        {
+          "name": "release",
+          "permission": "maintain"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "maintain"
+        },
+        {
+          "name": "triagebot",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rustc-dev-guide",
+      "description": "A guide to how rustc works and how to contribute to it.",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "compiler-contributors",
+          "permission": "write"
+        },
+        {
+          "name": "infra",
+          "permission": "write"
+        },
+        {
+          "name": "libs-contributors",
+          "permission": "write"
+        },
+        {
+          "name": "compiler",
+          "permission": "write"
+        },
+        {
+          "name": "wg-rustc-dev-guide",
+          "permission": "maintain"
+        },
+        {
+          "name": "libs",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "ci"
+          ],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rustc-hash",
+      "description": "Custom hash algorithm used by rustc (plus hashmap/set aliases): fast, deterministic, not secure",
+      "bots": [],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "write"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rustc-perf",
+      "description": "Website for graphing performance of rustc",
+      "bots": [],
+      "teams": [
+        {
+          "name": "wg-compiler-performance",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "Test and deploy",
+            "Test on Windows",
+            "Database Check"
+          ],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rustc_apfloat",
+      "description": "Rust port of C++ llvm::APFloat library",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "maintain"
+        },
+        {
+          "name": "compiler-contributors",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "rustc_codegen_cranelift",
+      "description": "Cranelift based backend for rustc",
+      "bots": [],
+      "teams": [
+        {
+          "name": "compiler",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "bjorn3",
+          "permission": "maintain"
+        }
+      ],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "rustup",
+      "description": "The Rust toolchain installer",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "rustup",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "socket2",
+      "description": "Advanced configuration options for sockets.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "sfackler",
+          "permission": "maintain"
+        },
+        {
+          "name": "Darksonn",
+          "permission": "maintain"
+        },
+        {
+          "name": "chansuke",
+          "permission": "triage"
+        },
+        {
+          "name": "carllerche",
+          "permission": "maintain"
+        },
+        {
+          "name": "Thomasdezeeuw",
+          "permission": "maintain"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "Rustfmt",
+            "Test (beta)",
+            "Test (macos)",
+            "Test (nightly)",
+            "Test (stable)",
+            "Test (windows)"
+          ],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "spec",
+      "description": "The Rust specification",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "spec",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "style-team",
+      "description": "Home of the Rust style team",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "style",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "team",
+      "description": "Rust teams structure",
+      "bots": [],
+      "teams": [
+        {
+          "name": "mods",
+          "permission": "maintain"
+        },
+        {
+          "name": "infra",
+          "permission": "triage"
+        },
+        {
+          "name": "team-repo-admins",
+          "permission": "write"
+        },
+        {
+          "name": "core",
+          "permission": "admin"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "CI"
+          ],
+          "dismiss_stale_review": true,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "testing-devex-team",
+      "description": "Home of the Rust Testing DevEx team",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "testing-devex",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "thorin",
+      "description": "DWARF packaging utility, written in Rust, supporting GNU extension and DWARF 5 package formats.",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "compiler-contributors",
+          "permission": "maintain"
+        },
+        {
+          "name": "compiler",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "trait-system-refactor-initiative",
+      "description": "The Rustc Trait System Refactor Initiative",
+      "bots": [],
+      "teams": [
+        {
+          "name": "initiative-trait-system-refactor",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "triagebot",
+      "description": "Automation/tooling for Rust spaces",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "infra",
+          "permission": "maintain"
+        },
+        {
+          "name": "triagebot",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "types-team",
+      "description": "Home of the \"types team\", affiliated with the compiler and lang teams.",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "types",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "unsafe-code-guidelines",
+      "description": "Forum for discussion about what unsafe code can and can't do",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "opsem",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "wg-binary-size",
+      "description": "Improving the binary size of Rust programs and libraries",
+      "bots": [],
+      "teams": [
+        {
+          "name": "wg-binary-size",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "wg-macros",
+      "description": "Home of the Rust Macros Working Gruop",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "wg-macros",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false,
+          "required_approvals": 1
+        }
+      ]
+    }
+  ]
+}

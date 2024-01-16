@@ -1,0 +1,26 @@
+{
+  "org": "rust-lang",
+  "name": "cargo-bisect-rustc",
+  "description": "Bisects rustc, either nightlies or CI artifacts",
+  "bots": [],
+  "teams": [
+    {
+      "name": "compiler",
+      "permission": "write"
+    }
+  ],
+  "members": [
+    {
+      "name": "ehuss",
+      "permission": "write"
+    }
+  ],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 0
+    }
+  ]
+}

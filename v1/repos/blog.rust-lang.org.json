@@ -1,0 +1,21 @@
+{
+  "org": "rust-lang",
+  "name": "blog.rust-lang.org",
+  "description": "Home of the Rust and Inside Rust blogs",
+  "bots": [],
+  "teams": [
+    {
+      "name": "inside-rust-reviewers",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

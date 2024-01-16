@@ -1,0 +1,35 @@
+{
+  "name": "arewewebyet",
+  "kind": "marker_team",
+  "subteam_of": null,
+  "members": [
+    {
+      "name": "Takayuki Nakata",
+      "github": "giraffate",
+      "github_id": 17407489,
+      "is_lead": false
+    },
+    {
+      "name": "Ibraheem Ahmed",
+      "github": "ibraheemdev",
+      "github_id": 34988408,
+      "is_lead": false
+    }
+  ],
+  "alumni": [],
+  "github": {
+    "teams": [
+      {
+        "org": "rust-lang",
+        "name": "arewewebyet",
+        "members": [
+          17407489,
+          34988408
+        ]
+      }
+    ]
+  },
+  "website_data": null,
+  "roles": [],
+  "discord": []
+}

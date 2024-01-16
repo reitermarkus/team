@@ -1,0 +1,14 @@
+{
+  "org": "rust-lang",
+  "name": "libm",
+  "description": "A port of MUSL's libm to Rust.",
+  "bots": [],
+  "teams": [
+    {
+      "name": "crate-maintainers",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

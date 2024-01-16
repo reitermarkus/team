@@ -1,0 +1,24 @@
+{
+  "org": "rust-lang",
+  "name": "bors",
+  "description": "Rust implementation of bors used for various Rust components (e.g. the compiler).",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "mods",
+      "permission": "maintain"
+    },
+    {
+      "name": "infra-bors",
+      "permission": "write"
+    },
+    {
+      "name": "infra",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

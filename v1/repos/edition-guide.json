@@ -1,0 +1,17 @@
+{
+  "org": "rust-lang",
+  "name": "edition-guide",
+  "description": "A guide to changes between various editions of Rust",
+  "bots": [
+    "rustbot",
+    "rfcbot"
+  ],
+  "teams": [
+    {
+      "name": "project-edition-2024",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

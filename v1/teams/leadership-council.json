@@ -1,0 +1,115 @@
+{
+  "name": "leadership-council",
+  "kind": "team",
+  "subteam_of": null,
+  "members": [
+    {
+      "name": "Carol Nichols",
+      "github": "carols10cents",
+      "github_id": 193874,
+      "is_lead": false
+    },
+    {
+      "name": "Eric Holk",
+      "github": "eholk",
+      "github_id": 105766,
+      "is_lead": false
+    },
+    {
+      "name": "Eric Huss",
+      "github": "ehuss",
+      "github_id": 43198,
+      "is_lead": false
+    },
+    {
+      "name": "Jack Huey",
+      "github": "jackh726",
+      "github_id": 31162821,
+      "is_lead": false
+    },
+    {
+      "name": "Jonathan Pallant",
+      "github": "jonathanpallant",
+      "github_id": 18005923,
+      "is_lead": false
+    },
+    {
+      "name": "Mara Bos",
+      "github": "m-ou-se",
+      "github_id": 783247,
+      "is_lead": false
+    },
+    {
+      "name": "Mark Rousskov",
+      "github": "Mark-Simulacrum",
+      "github_id": 5047365,
+      "is_lead": false
+    },
+    {
+      "name": "Ryan Levick",
+      "github": "rylev",
+      "github_id": 1327285,
+      "is_lead": false
+    },
+    {
+      "name": "Josh Gould",
+      "github": "technetos",
+      "github_id": 10949810,
+      "is_lead": false
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Khionu Sybiern",
+      "github": "khionu",
+      "github_id": 11195266,
+      "is_lead": false
+    }
+  ],
+  "github": {
+    "teams": [
+      {
+        "org": "rust-lang",
+        "name": "leadership-council",
+        "members": [
+          5047365,
+          193874,
+          105766,
+          43198,
+          31162821,
+          18005923,
+          783247,
+          1327285,
+          10949810
+        ]
+      },
+      {
+        "org": "rust-lang-nursery",
+        "name": "leadership-council",
+        "members": [
+          5047365,
+          193874,
+          105766,
+          43198,
+          31162821,
+          18005923,
+          783247,
+          1327285,
+          10949810
+        ]
+      }
+    ]
+  },
+  "website_data": {
+    "name": "Leadership council",
+    "description": "Charged with the success of the Rust Project as whole, consisting of representatives from top-level teams",
+    "page": "leadership-council",
+    "email": "council@rust-lang.org",
+    "repo": "https://github.com/rust-lang/leadership-council",
+    "discord": null,
+    "zulip_stream": "council",
+    "weight": 1000
+  },
+  "roles": [],
+  "discord": []
+}

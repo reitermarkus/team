@@ -1,0 +1,49 @@
+{
+  "name": "community-ctcft",
+  "kind": "team",
+  "subteam_of": "community",
+  "members": [
+    {
+      "name": "Forest Anderson",
+      "github": "AngelOnFira",
+      "github_id": 14791619,
+      "is_lead": true
+    },
+    {
+      "name": "Niko Matsakis",
+      "github": "nikomatsakis",
+      "github_id": 155238,
+      "is_lead": true
+    },
+    {
+      "name": "Josh Gould",
+      "github": "technetos",
+      "github_id": 10949810,
+      "is_lead": false
+    },
+    {
+      "name": "Jane Lusby",
+      "github": "yaahc",
+      "github_id": 1993852,
+      "is_lead": false
+    }
+  ],
+  "alumni": [],
+  "github": {
+    "teams": [
+      {
+        "org": "rust-lang",
+        "name": "community-ctcft",
+        "members": [
+          14791619,
+          155238,
+          10949810,
+          1993852
+        ]
+      }
+    ]
+  },
+  "website_data": null,
+  "roles": [],
+  "discord": []
+}

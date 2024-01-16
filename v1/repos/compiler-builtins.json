@@ -1,0 +1,14 @@
+{
+  "org": "rust-lang",
+  "name": "compiler-builtins",
+  "description": "Porting `compiler-rt` intrinsics to Rust",
+  "bots": [],
+  "teams": [
+    {
+      "name": "crate-maintainers",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

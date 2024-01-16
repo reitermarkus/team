@@ -1,0 +1,17 @@
+{
+  "org": "rust-lang",
+  "name": "testing-devex-team",
+  "description": "Home of the Rust Testing DevEx team",
+  "bots": [
+    "rustbot",
+    "rfcbot"
+  ],
+  "teams": [
+    {
+      "name": "testing-devex",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

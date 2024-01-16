@@ -1,0 +1,21 @@
+{
+  "org": "rust-lang",
+  "name": "arewewebyet",
+  "description": "Are we web yet? A simple reckoning of Rust's readiness for Web-related things.",
+  "bots": [],
+  "teams": [
+    {
+      "name": "arewewebyet",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

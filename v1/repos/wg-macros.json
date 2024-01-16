@@ -1,0 +1,23 @@
+{
+  "org": "rust-lang",
+  "name": "wg-macros",
+  "description": "Home of the Rust Macros Working Gruop",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "wg-macros",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "main",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

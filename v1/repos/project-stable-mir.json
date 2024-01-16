@@ -1,0 +1,24 @@
+{
+  "org": "rust-lang",
+  "name": "project-stable-mir",
+  "description": "Define compiler intermediate representation usable by external tools",
+  "bots": [
+    "bors",
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "project-stable-mir",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "main",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

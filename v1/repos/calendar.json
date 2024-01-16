@@ -1,0 +1,67 @@
+{
+  "org": "rust-lang",
+  "name": "calendar",
+  "description": "Calendars for Rust project teams",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "release",
+      "permission": "maintain"
+    },
+    {
+      "name": "libs",
+      "permission": "maintain"
+    },
+    {
+      "name": "wg-async",
+      "permission": "maintain"
+    },
+    {
+      "name": "compiler",
+      "permission": "maintain"
+    },
+    {
+      "name": "lang",
+      "permission": "maintain"
+    },
+    {
+      "name": "crates-io",
+      "permission": "maintain"
+    },
+    {
+      "name": "lang-ops",
+      "permission": "maintain"
+    },
+    {
+      "name": "cargo",
+      "permission": "maintain"
+    },
+    {
+      "name": "infra",
+      "permission": "maintain"
+    },
+    {
+      "name": "docs-rs",
+      "permission": "maintain"
+    },
+    {
+      "name": "leadership-council",
+      "permission": "maintain"
+    },
+    {
+      "name": "compiler-contributors",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "main",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

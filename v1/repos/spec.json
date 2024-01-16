@@ -1,0 +1,17 @@
+{
+  "org": "rust-lang",
+  "name": "spec",
+  "description": "The Rust specification",
+  "bots": [
+    "rustbot",
+    "rfcbot"
+  ],
+  "teams": [
+    {
+      "name": "spec",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": []
+}

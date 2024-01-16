@@ -1,0 +1,21 @@
+{
+  "org": "rust-lang",
+  "name": "impl-trait-utils",
+  "description": "Utilities for working with impl traits in Rust.",
+  "bots": [],
+  "teams": [
+    {
+      "name": "wg-async",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "main",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

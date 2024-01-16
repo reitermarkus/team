@@ -1,0 +1,31 @@
+{
+  "org": "rust-lang",
+  "name": "measureme",
+  "description": "Support crate for rustc's self-profiling feature",
+  "bots": [
+    "bors"
+  ],
+  "teams": [
+    {
+      "name": "compiler",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    },
+    {
+      "pattern": "stable",
+      "ci_checks": [
+        "bors build finished"
+      ],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

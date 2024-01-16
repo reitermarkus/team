@@ -1,0 +1,23 @@
+{
+  "org": "rust-lang",
+  "name": "rustup",
+  "description": "The Rust toolchain installer",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "rustup",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}

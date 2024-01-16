@@ -1,0 +1,45 @@
+{
+  "org": "rust-lang",
+  "name": "rustc-dev-guide",
+  "description": "A guide to how rustc works and how to contribute to it.",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "compiler-contributors",
+      "permission": "write"
+    },
+    {
+      "name": "infra",
+      "permission": "write"
+    },
+    {
+      "name": "libs-contributors",
+      "permission": "write"
+    },
+    {
+      "name": "compiler",
+      "permission": "write"
+    },
+    {
+      "name": "wg-rustc-dev-guide",
+      "permission": "maintain"
+    },
+    {
+      "name": "libs",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [
+        "ci"
+      ],
+      "dismiss_stale_review": false,
+      "required_approvals": 1
+    }
+  ]
+}
